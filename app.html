@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="css/app.css"/>
+</head>
+<body>
+
+<div class="info">
+    整个盘格为俯视图， 由64个盘格组成。</br>
+    垂直每个盘格向上有两块垂直平面向上的直角三角形铁片（黑色）</br>
+    每个盘格边为四个长方体，有且仅有一个侧面为黑色，其余面为白色（两个面为正方形，整个过程中不可见），初始状态黑色面朝上</br>
+    每个盘格顶点为立方体，有且仅有一个侧面为黑色，其余面为白色，初始状态黑色面朝上
+    </br>
+    规则：</br>
+    每步向内旋转两块三角形铁片 90/15 度</br>
+    每步旋转长方体和立方体 90/15 度</br>
+</div>
+<div class="block">
+<div class="step">step: 0</div>
+
+<button class="on">点我点我点我~</button>
+</div>
+
+<script type="text/javascript" src="lib/jquery-1.4.2.js"></script>
+<script type="text/javascript" src="lib/three.min.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>

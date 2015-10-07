@@ -1,0 +1,13 @@
+.info {
+    float: left;
+    background-color: #eeeeee;
+    width: 1040px;
+}
+
+.step {
+    margin: 40px;
+}
+
+.block {
+    width: 200px;
+}

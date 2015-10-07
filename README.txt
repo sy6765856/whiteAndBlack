@@ -1,0 +1,1 @@
+使用chrome或firefox等高级浏览器打开app.html
